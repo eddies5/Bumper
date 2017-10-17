@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'Bumper_Example' do
+  pod 'Bumper', :path => '../'
+
+  target 'Bumper_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
