@@ -1,42 +1,18 @@
-#
-# Be sure to run `pod lib lint Bumper.podspec' to ensure this is a
-# valid spec before submitting.
-#
-# Any lines starting with a # are optional, but their use is encouraged
-# To learn more about a Podspec see http://guides.cocoapods.org/syntax/podspec.html
-#
-
 Pod::Spec.new do |s|
   s.name             = 'Bumper'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of Bumper.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
-
+  s.summary          = 'Easy version number bump detection.'
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+Bumper looks for version number increases at app start up and calls your code when and where you want when a bump occurs. Great for displaying "New Features" views on upgrades.
                        DESC
 
-  s.homepage         = 'https://github.com/Eddie Saenz/Bumper'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.homepage         = 'https://github.com/eddies5/Bumper'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Eddie Saenz' => 'saenzeddie5@gmail.com' }
-  s.source           = { :git => 'https://github.com/Eddie Saenz/Bumper.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.author           = { 'Eddie Saenz' => 'eddie@eddiesaenz.net' }
+  s.source           = { :git => 'https://github.com/eddies5/Bumper.git', :tag => s.version.to_s }
+  s.social_media_url = 'https://twitter.com/eddies5'
 
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'Bumper/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'Bumper' => ['Bumper/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end

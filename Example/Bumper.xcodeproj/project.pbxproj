@@ -28,10 +28,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1ABB97DC144CFDC7DB1DBBD3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		08FD48EC1F97CBC900985068 /* CHANGELOG.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = CHANGELOG.md; path = ../CHANGELOG.md; sourceTree = "<group>"; };
+		1ABB97DC144CFDC7DB1DBBD3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		2AB31AC9AB65B7D199BEB239 /* Pods_Bumper_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Bumper_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3587A5BC0F90D4CB052FD570 /* Pods-Bumper_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bumper_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Bumper_Example/Pods-Bumper_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		48F69C151A75E23C69A5EFC2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		48F69C151A75E23C69A5EFC2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		583829C110904EE67FA4E217 /* Pods-Bumper_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bumper_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-Bumper_Example/Pods-Bumper_Example.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* Bumper_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bumper_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -46,7 +47,7 @@
 		75B851E29E198C532D1754A9 /* Pods-Bumper_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bumper_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Bumper_Tests/Pods-Bumper_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		9031DB03ED3FAA023B3E7966 /* Pods-Bumper_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bumper_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Bumper_Tests/Pods-Bumper_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		EBA2F8CF9850698D81CBA584 /* Pods_Bumper_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Bumper_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F4CAB03E7F339529DB49C74F /* Bumper.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = Bumper.podspec; path = ../Bumper.podspec; sourceTree = "<group>"; };
+		F4CAB03E7F339529DB49C74F /* Bumper.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Bumper.podspec; path = ../Bumper.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +136,7 @@
 				F4CAB03E7F339529DB49C74F /* Bumper.podspec */,
 				48F69C151A75E23C69A5EFC2 /* README.md */,
 				1ABB97DC144CFDC7DB1DBBD3 /* LICENSE */,
+				08FD48EC1F97CBC900985068 /* CHANGELOG.md */,
 			);
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
